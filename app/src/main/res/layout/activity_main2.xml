@@ -39,7 +39,7 @@
         android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true"
         android:elevation="0dp"
-        android:background="@drawable/Untitled" />
+        android:background="@drawable/untitled" />
 
     <Button
         android:text="My friends"

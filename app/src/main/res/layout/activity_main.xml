@@ -10,16 +10,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.enrro.appaboutmyself.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="Name Goes here"
         android:ems="10"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
@@ -29,7 +24,7 @@
         android:textAlignment="center" />
 
     <Button
-        android:text="Button"
+        android:text="Ready?"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
