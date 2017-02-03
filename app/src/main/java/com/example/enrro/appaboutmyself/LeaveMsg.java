@@ -20,6 +20,7 @@ public class LeaveMsg extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main5);
 
+        
         button = (Button) findViewById(R.id.button6);
         edittext = (EditText) findViewById(R.id.editText3);
     }
