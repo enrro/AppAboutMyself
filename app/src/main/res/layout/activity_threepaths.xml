@@ -39,7 +39,8 @@
         android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true"
         android:elevation="0dp"
-        android:background="@drawable/untitled" />
+        android:background="@drawable/untitled"
+        android:onClick="goToHobbies" />
 
     <Button
         android:text="My friends"
@@ -48,6 +49,7 @@
         android:layout_marginTop="38dp"
         android:id="@+id/button3"
         android:layout_below="@+id/button2"
+        android:onClick="goToFriends"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -57,6 +59,7 @@
         android:layout_marginTop="37dp"
         android:id="@+id/button4"
         android:layout_below="@+id/button3"
+        android:onClick="goToLeaveMsg"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

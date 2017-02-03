@@ -16,9 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".ThreePaths" />
-        <activity android:name=".Main3Activity" />
-        <activity android:name=".Main4Activity" />
-        <activity android:name=".Main5Activity"></activity>
+        <activity android:name=".Hobbies" />
+        <activity android:name=".Friends" />
+        <activity android:name=".LeaveMsg"></activity>
     </application>
 
 </manifest>
