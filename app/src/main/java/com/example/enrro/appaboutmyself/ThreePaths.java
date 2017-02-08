@@ -49,7 +49,7 @@ public class ThreePaths extends AppCompatActivity {
             Toast.makeText(this, i.getStringExtra("message"), Toast.LENGTH_SHORT).show();
         }
         if (RequestCode == 0 && ResultCode == Activity.RESULT_FIRST_USER){
-            textView1.setText("Your hobby is: " + i.getStringExtra("test2"));
+            textView1.setText("Your hobby is: " + i.getStringExtra("test1"));
         }
     }
 
